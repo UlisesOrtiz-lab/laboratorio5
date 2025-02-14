@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de Mí</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Acerca de Mí</h1>
+    <div class="grid-container">
+
+        <div class="grid-item grid-item1" id="animal" onmouseover="cambiarColor(this)" onmouseout="restaurarColor(this)" onclick="mostrarMensaje('Mi animal favorito es el perro')">
+            <h3>Mi animal favorito</h3>
+
+        </div>
+        <div class="grid-item grid-item2" id="comida" onmouseover="cambiarColor(this)" onmouseout="restaurarColor(this)">
+            <h4>Comida favorita</h4>
+        </div>
+        <div class="grid-item grid-item3" id="pelicula" onmouseover="cambiarColor(this)" onmouseout="restaurarColor(this)" ondblclick="cambiarTexto(this)">
+            <h5>Película o serie favorita</h5>
+        </div>
+        <div class="grid-item grid-item4" id="cancion" onmouseover="cambiarColor(this)" onmouseout="restaurarColor(this)">
+            <h5>Canción favorita</h5>
+            <button onclick="reproducirAudio()">Reproducir canción</button>
+        </div>
+        <div class="grid-item grid-item5" id="persona" onmouseover="cambiarColor(this)" onmouseout="restaurarColor(this)" oncontextmenu="mostrarAlerta(event)">
+            <h5>Persona a quién admiro</h5>
+        </div>
+        <div class="grid-item grid-item6" id="pais" onmouseover="cambiarColor(this)" onmouseout="restaurarColor(this)" onfocus="cambiarFondo()" tabindex="0">
+            <h5>País que me gustaría visitar</h5>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+<footer>
+
+    <p>&copy; 2025 Mi Sitio Web</p>
+    
+  </footer>
+</html>

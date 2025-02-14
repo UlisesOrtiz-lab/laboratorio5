@@ -1,0 +1,210 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #363434;
+    margin: 0;
+    padding: 0;
+}
+
+ 
+h1 {
+    margin-top: 30px;
+    color: #0e0d0d;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item1 {
+    position: relative;
+    width: 10%;
+    background-image: url('https://humanidades.com/wp-content/uploads/2017/02/perro-1-e1561678907722.jpg'); /* Reemplaza con la ruta de tu imagen */
+    padding: 200px;
+    border-radius: 10px;
+    color: white;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    text-shadow: 1px 1px 3px black;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+
+}
+
+.grid-item h3 {
+    position: absolute;
+    top: 10px; /* Ajusta la distancia desde la parte superior */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    width: 80%; /* Ajusta el ancho */
+}
+
+.grid-item h3 {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.grid-item:hover h3 {
+    opacity: 1;
+}
+
+
+/*------------------------------------------------------------*/
+
+.grid-item2 {
+    position: relative;
+    width: 10%;
+    background-image: url('https://okdiario.com/img/2023/04/12/el-truco-definitivo-para-que-las-patatas-fritas-te-queden-mas-crujientes.jpg'); /* Reemplaza con la ruta de tu imagen */
+    padding: 200px;
+    border-radius: 10px;
+    color: white;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    text-shadow: 1px 1px 3px black;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+
+}
+
+
+.grid-item h4 {
+    position: absolute;
+    top: 10px; /* Ajusta la distancia desde la parte superior */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    width: 80%; /* Ajusta el ancho */
+}
+
+.grid-item h4 {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.grid-item:hover h4 {
+    opacity: 1;
+}
+
+/*------------------------------------------------------------------------------*/
+
+.grid-item3 {
+    position: relative;
+    width: 10%;
+    background-image: url('https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'); /* Reemplaza con la ruta de tu imagen */
+    padding: 200px;
+    border-radius: 10px;
+    color: white;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    text-shadow: 1px 1px 3px black;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+.grid-item h5 {
+    position: absolute;
+    top: 10px; /* Ajusta la distancia desde la parte superior */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    width: 80%; /* Ajusta el ancho */
+}
+
+.grid-item h5 {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.grid-item:hover h5 {
+    opacity: 1;
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+
+
+.grid-item4 {
+    position: relative;
+    width: 10%;
+    background-image: url('https://akamai.sscdn.co/letras/360x360/albuns/8/2/a/1/2337651724239514.jpg'); /* Reemplaza con la ruta de tu imagen */
+    padding: 200px;
+    border-radius: 10px;
+    color: white;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    text-shadow: 1px 1px 3px black;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+
+
+.grid-item5 {
+    position: relative;
+    width: 10%;
+    background-image: url('https://assets.goal.com/images/v3/bltaaa483e47da093c4/GettyImages-1450106798.jpg?auto=webp&format=pjpg&width=3840&quality=60.jpg'); /* Reemplaza con la ruta de tu imagen */
+    padding: 200px;
+    border-radius: 10px;
+    color: white;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    text-shadow: 1px 1px 3px black;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+.grid-item6 {
+    position: relative;
+    width: 10%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi4S-xLqS6-JY3RKY0DyXPYXNiksz0fppfvg&s.jpg'); /* Reemplaza con la ruta de tu imagen */
+    padding: 200px;
+    border-radius: 10px;
+    color: white;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    text-shadow: 1px 1px 3px black;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+.grid-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+    .grid-item {
+        width: 100%;
+
+    }
+    
+}
